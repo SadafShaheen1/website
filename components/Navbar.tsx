@@ -6,15 +6,15 @@ const Navbar = () => {
       <div className='container'>
         <div className='flex items-center justify-center gap-10 mx-auto font-medium py-4 text-blue-700'>
           <a href='' className='navbar_link relative'>
-            WOW
+            Bali
           </a>
 
           <a href='' className='navbar_link relative'>
-            OMG
+            Boro Boro
           </a>
 
           <a href='' className='navbar_link relative'>
-            BEACH
+           Lets Beachin'
           </a>
 
           <a href='' className='navbar_link relative'>
