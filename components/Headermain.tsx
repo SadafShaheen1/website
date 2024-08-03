@@ -195,7 +195,7 @@ const Headermain = () => {
                                 </div>
                             ))
                         ) : (
-                            <p className='text-gray-500'>No matches found</p>
+                            <p className='text-gray-500'>SORRY NOTHING IS THERE ! TRY FINDING ANOTHER PLACE</p>
                         )}
                     </div>
                 </div>
