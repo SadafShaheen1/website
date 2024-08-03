@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+
+  
+
+  .navbar_link {
+    position: relative;
+    text-decoration: none; /* Ensure links do not have default underline */
+  }
+  .navbar_link:hover{
+    color: rgb(111, 185, 185);
+  }
+  .navbar_link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    transition: width 0.7s ease;
+    
+  }
+  
+  .navbar_link:hover::after {
+    width: 100%; 
+  }
+  
+}
+.slide-container {
+  /* Add any custom styles for the slide container */
+}
+
+.description-container {
+  margin-top: 1rem; /* Adjust the margin as needed */
+}
+
+
